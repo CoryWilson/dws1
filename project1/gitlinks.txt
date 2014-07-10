@@ -1,0 +1,8 @@
+Cory Wilson
+DWS1
+07/10/14
+Project 1
+
+Repository Link: https://github.com/CoryWilson/dws1/tree/gh-pages
+
+Live Site: http://corywilson.github.io/dws1/project1/index.html
