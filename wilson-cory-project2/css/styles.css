@@ -202,7 +202,8 @@ header h1 {
 }
 
 #nav a:hover {
-	color: #666;
+	color: #333;
+	background-color: #FCFAE1;
 }
 
 /*********************
@@ -274,7 +275,7 @@ header h1 {
 }
 #gallery ul {
 	list-style-type: none;
-	text-align: center;
+	text-align: left;
   	padding: 0;
   	margin: 0;
 }
@@ -284,7 +285,6 @@ header h1 {
 #gallery figure {
   	padding: 10px;
 }
-
 #gallery figcaption {
 	font-size: .75em;
 }
@@ -295,8 +295,10 @@ header h1 {
 footer {
   	margin: 0;
   	padding: 10px 25px;
+  	font-size: .75em;
 }
 
-footer p {
-	font-size: 1.5em;
+footer ul {
+	list-style: none;
+	padding: 0;	
 }
