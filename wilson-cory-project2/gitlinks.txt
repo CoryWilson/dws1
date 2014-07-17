@@ -3,6 +3,6 @@ DWS1
 07/17/14
 Project 2
 
-Repository Link: https://github.com/CoryWilson/dws1/tree/gh-pages
+Repository Link: https://github.com/CoryWilson/dws1/tree/gh-pages/wilson-cory-project2
 
 Live Site: http://corywilson.github.io/dws1/wilson-cory-project2/index.html
