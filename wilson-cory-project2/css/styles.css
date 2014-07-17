@@ -1,3 +1,10 @@
+/***********
+Cory Wilson
+DWS1
+07/17/14
+Project 2
+***********/
+
 /*****************************
 Cherry Cheesecake Color Scheme
 red: 		185 18 27
@@ -47,22 +54,18 @@ h1 {
 	font-size: 2em;/*font-size*/
 	margin: 0;
 }
-
 h2 {
 	font-size: 1.5em;
   	margin: 0 0 15px 0;
 }
-
 h3 {
   	font-size: 1.17em;
   	margin: 0 0 15px 0;
 }
-
 h4 {
   	font-size: 1em;
   	margin: 0 0 15px 0;
 }
-
 h5 {
   	font-size: 0.83em;
   	margin: 15px 0;
@@ -87,7 +90,6 @@ dfn {
 	font-style: normal; /*font-style used*/
 	font-weight: bold; /*font-weight used*/
 }
-
 p {
   	margin: 1px auto;
 }
@@ -99,15 +101,12 @@ p {
 a:link {/*a:link used*/
 	color: #B9121B;
 }
-
 a:visited {/*a:visited used*/
 	color: #4C1B1B;
 }
-
 a:hover {/*a:hover used*/
 	background-color: #999;
 }
-
 a:active {/*a:active used*/
 	background-color: #ccc;
 }
@@ -123,31 +122,14 @@ figure {
   	border-radius: 3px;/*border-radius used*/
   	box-shadow: 3px 3px 15px rgba(76,27,27,.5);/*box-shadow and opacity used*/
 }
-
 figure img {
 	display: block;
 	margin: 0 auto 10px auto;
 }
-
 figcaption {
 	background-color: #FCFAE1;
 	padding: 2.5px 5px;
 }
-
-/**************
-	classes
-**************/
-
-.light_content{
-	padding: 30px 30px;
-	margin: 0;
-}
-
-.dark_content{
-	padding: 30px 30px;
-	margin: 0;
-}
-
 
 /**************
    container
@@ -165,7 +147,6 @@ figcaption {
 header {
 	background-color: #FCFAE1;
 }
-
 header h1 {
 	color: #000;
 	text-align: center;
@@ -181,26 +162,22 @@ header h1 {
   	background-color: #4C1B1B;
   	font-size: 1em;
 }
-
 #nav ul{
 	list-style-type: none;
 	text-align: center; /*text-align used*/
   	padding: 0;
   	margin: 0;
 }
-
 #nav li {
 	display: inline-block;/*display used*/
   	padding: 15px 10px;
 }
-
 #nav a {
   	text-decoration: none;
   	font-weight: bold;
   	color: #FCFAE1;
   	padding: 15px 0;
 }
-
 #nav a:hover {
 	color: #333;
 	background-color: #FCFAE1;
@@ -287,6 +264,30 @@ header h1 {
 }
 #gallery figcaption {
 	font-size: .75em;
+}
+a#gal1 {
+	display: block;
+	width: 240px;
+	height: 190px;
+}
+a:hover#gal1 {
+	border: 2px solid #B9121B;
+}
+a#gal2 {
+	display: block;
+	width: 193px;
+	height: 240px;
+}
+a:hover#gal2 {
+	border: 2px solid #B9121B;
+}
+a#gal3 {
+	display: block;
+	width:240px;
+	height: 159px;
+}
+a:hover#gal3 {
+	border: 2px solid #B9121B;
 }
 
 /*************
