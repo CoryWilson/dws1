@@ -43,6 +43,9 @@ dark beige: 189 141 70
 
 body {
 	background-color: #4C1B1B; /*Hex color*/
+	background-image: url('images/black-linen.png'); /*bg image*/
+	background-repeat: repeat; /*bg repeat*/
+	background-position: center; /*bg position*/
 	font-family: 'Open Sans', Verdana, sans-serif;/*font-family used here*/
 	margin: 0;/*margin used*/
 }
