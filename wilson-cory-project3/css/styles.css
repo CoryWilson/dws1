@@ -1,0 +1,305 @@
+/***********
+Cory Wilson
+DWS1
+07/17/14
+Project 2
+***********/
+
+/*****************************
+Cherry Cheesecake Color Scheme
+red: 		185 18 27
+	 		#B9121B
+dark red:	76 27 27
+		  	#4C1B1B
+med beige:	246 228 151
+			#F6E497
+tan: 		252 250 225
+			#FCFAE1
+dark beige: 189 141 70
+			#BD8D46
+*****************************/
+
+
+/*@font-face used here*/
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(http://themes.googleusercontent.com/static/fonts/opensans/v8/cJZKeOuBrn4kERxqtaUH3bO3LdcAZYWl9Si6vvxL-qU.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Open Sans Bold'), local('OpenSans-Bold'), url(http://themes.googleusercontent.com/static/fonts/opensans/v8/k3k702ZOKiLJc3WVjuplzKRDOzjiPcYnFooOUGCOsRk.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Open Sans Italic'), local('OpenSans-Italic'), url(http://themes.googleusercontent.com/static/fonts/opensans/v8/xjAJXh38I15wypJXxuGMBrrIa-7acMAeDBVuclsi6Gc.woff) format('woff');
+}
+
+
+body {
+	background-color: #4C1B1B; /*Hex color*/
+	font-family: 'Open Sans', Verdana, sans-serif;/*font-family used here*/
+	margin: 0;/*margin used*/
+}
+
+/**************
+	headers
+**************/
+h1 {
+	font-size: 2em;/*font-size*/
+	margin: 0;
+}
+h2 {
+	font-size: 1.5em;
+  	margin: 0 0 15px 0;
+}
+h3 {
+  	font-size: 1.17em;
+  	margin: 0 0 15px 0;
+}
+h4 {
+  	font-size: 1em;
+  	margin: 0 0 15px 0;
+}
+h5 {
+  	font-size: 0.83em;
+  	margin: 15px 0;
+}
+
+
+/************
+	lists
+************/
+ul{
+
+}
+ol {
+  	margin: 2px auto;
+}
+
+
+/****************
+	dfn and p
+****************/
+dfn {
+	font-style: normal; /*font-style used*/
+	font-weight: bold; /*font-weight used*/
+}
+p {
+  	margin: 1px auto;
+}
+
+
+/***************
+	links
+***************/
+a:link {/*a:link used*/
+	color: #B9121B;
+}
+a:visited {/*a:visited used*/
+	color: #4C1B1B;
+}
+a:hover {/*a:hover used*/
+	background-color: #999;
+}
+a:active {/*a:active used*/
+	background-color: #ccc;
+}
+
+/**************
+	figure
+**************/
+figure {
+  	background: #BD8D46;
+  	padding: 10px;/*padding used*/
+  	margin: 0 auto;
+  	border: 1px solid #4C1B1B;/*border used*/
+  	border-radius: 3px;/*border-radius used*/
+  	box-shadow: 3px 3px 15px rgba(76,27,27,.5);/*box-shadow and opacity used*/
+}
+figure img {
+	display: block;
+	margin: 0 auto 10px auto;
+}
+figcaption {
+	background-color: #FCFAE1;
+	padding: 2.5px 5px;
+}
+
+/**************
+   container
+**************/
+#container {
+  	background-color: #FCFAE1;
+  	/*page centered with with and auto margin*/
+	width: 95%;/*width used*/
+	margin: 0 auto;
+}
+
+/**************
+	header
+**************/
+header {
+	background-color: #FCFAE1;
+}
+header h1 {
+	color: #000;
+	text-align: center;
+	margin: 0 auto;
+	padding: 25px;
+	text-shadow: 3px 3px 15px rgba(76,27,27,.5);/*text-shadow and opacity added*/
+}
+
+/**************
+  navigation
+**************/
+#nav {
+  	background-color: #4C1B1B;
+  	font-size: 1em;
+}
+#nav ul{
+	list-style-type: none;
+	text-align: center; /*text-align used*/
+  	padding: 0;
+  	margin: 0;
+}
+#nav li {
+	display: inline-block;/*display used*/
+  	padding: 15px 10px;
+}
+#nav a {
+  	text-decoration: none;
+  	font-weight: bold;
+  	color: #FCFAE1;
+  	padding: 15px 0;
+}
+#nav a:hover {
+	color: #333;
+	background-color: #FCFAE1;
+}
+
+/*********************
+   electric_guitars
+*********************/
+#electric_guitars {
+  	margin: 0;
+  	padding: 10px 25px;
+}
+
+/*********************
+   construction_box
+*********************/
+#construction_box {
+  	margin: 0;
+  	background-color: #F6E497;
+  	padding: 10px 25px;
+  	overflow: hidden;
+}
+
+#construction_box figure {
+  	margin: 0 0 25px 25px;
+  	float: right;
+}
+
+/*********************
+  	 bridge_box
+*********************/
+#bridge_box {
+  	margin: 0;
+  	padding: 10px 25px;
+  	overflow: hidden;
+}
+
+#bridge_box figure {
+  	float: left;
+  	margin: 0 20px 20px 0;
+}
+
+/*********************
+   	pickup_box
+*********************/
+#pickup_box {
+  	margin: 0;
+  	background-color: #F6E497;
+  	padding: 10px 25px;
+  	overflow: hidden;
+}
+#pickup_box figure {
+  	float: right;
+  	margin: 0 0 20px 20px;
+}
+
+/*********************
+  	neck_box
+*********************/
+#neck_box {
+  	margin: 0;
+  	padding: 10px 25px;
+}
+
+/**************
+    gallery
+**************/
+#gallery {
+  	background-color: #F6E497;
+  	padding: 10px 25px;
+  	overflow: hidden;
+}
+#gallery ul {
+	list-style-type: none;
+	text-align: left;
+  	padding: 0;
+  	margin: 0;
+}
+#gallery li {
+	display: inline-block;
+}
+#gallery figure {
+  	padding: 10px;
+}
+#gallery figcaption {
+	font-size: .75em;
+}
+a#gal1 {
+	display: block;
+	width: 240px;
+	height: 190px;
+}
+a:hover#gal1 {
+	border: 2px solid #B9121B;
+}
+a#gal2 {
+	display: block;
+	width: 193px;
+	height: 240px;
+}
+a:hover#gal2 {
+	border: 2px solid #B9121B;
+}
+a#gal3 {
+	display: block;
+	width:240px;
+	height: 159px;
+}
+a:hover#gal3 {
+	border: 2px solid #B9121B;
+}
+
+/*************
+  footer
+*************/
+footer {
+  	margin: 0;
+  	padding: 10px 25px;
+  	font-size: .75em;
+}
+
+footer ul {
+	list-style: none;
+	padding: 0;	
+}
