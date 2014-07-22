@@ -42,7 +42,7 @@ dark beige: 189 141 70
 
 
 body {
-	background: #4C1B1B url("../images/black-linen.png") repeat top left;
+	background: #4C1B1B url("../images/black-linen.png") repeat top left;/*repeating background image*/
 	font-family: 'Open Sans', Verdana, sans-serif;/*font-family used here*/
 	margin: 0;/*margin used*/
 }
@@ -144,7 +144,7 @@ figcaption {
 	header
 **************/
 header {
-	background: #FCFAE1 url("../images/logo.gif") center center no-repeat;
+	background: #FCFAE1 url("../images/logo.svg") center center no-repeat;/*non-repeating background image*/
 }
 header h1 {
 	color: #000;
@@ -178,7 +178,7 @@ header h1 {
   	text-decoration: none;
   	font-weight: bold;
   	color: #FCFAE1;
-  	padding: 2%;
+  	padding: 0;
 }
 #nav a:hover {
 	color: #333;
@@ -195,14 +195,14 @@ header h1 {
 }
 
 #eg1 {
-	width: 48%;
+	width: 60%;
 	float: left;
 	margin: 1%;
 }
 #eg2 {
-	width: 48%;
+	width: 36%;
 	float: left;
-	margin: 1%;
+	margin: 3% 1% 1% 1%;
 }
 
 
@@ -218,12 +218,12 @@ header h1 {
 
 #cb1 {
 	float: left;
-	width: 48%;
+	width: 52%;
 	margin: 1%;
 }
 #cb2 {
 	float: left;
-	width: 48%;
+	width: 44%;
 	margin: 1%;
 }
 
@@ -244,12 +244,12 @@ header h1 {
 }
 #bridge1 {
 	float: left;
-	width: 48%;
+	width: 52%;
 	margin: 1%;
 }
 #bridge2{
 	float: left;
-	width: 48%;
+	width: 44%;
 	margin: 1%;
 }
 
@@ -286,12 +286,12 @@ header h1 {
 }
 #neck1 {
 	float: left;
-	width: 48%;
+	width: 60%;
 	margin: 1%;
 }
 #neck2 {
 	float: left;
-	width: 48%;
+	width: 36%;
 	margin: 1%;
 }
 
@@ -303,7 +303,6 @@ header h1 {
   	padding: 10px 25px;
   	overflow: auto;
 }
-
 #gallery figure {
 	float: left;
 	margin: 0px 10px;
@@ -312,35 +311,19 @@ header h1 {
 #gallery figcaption {
 	font-size: .75em;
 }
-a#gal1 {
-	display: block;
-	width: 240px;
-	height: 190px;
+
+#gallery a {
+	border: none;
 }
-a:hover#gal1 {
-	border: 2px solid #B9121B;
-}
-a#gal2 {
-	display: block;
-	width: 193px;
-	height: 240px;
-}
-a:hover#gal2 {
-	border: 2px solid #B9121B;
-}
-a#gal3 {
-	display: block;
-	width:240px;
-	height: 159px;
-}
-a:hover#gal3 {
-	border: 2px solid #B9121B;
+#gallery a:hover {
+	border: 1px solid red;
 }
 
 /*************
   footer
 *************/
 footer {
+	/*css gradient for background*/
 	background: -webkit-linear-gradient(left, #fcfae1 0%,#f6e497 100%); /* Chrome10+,Safari5.1+ */
 	background: -o-linear-gradient(left, #fcfae1 0%,#f6e497 100%); /* Opera 11.10+ */
 	background: -ms-linear-gradient(left, #fcfae1 0%,#f6e497 100%); /* IE10+ */
