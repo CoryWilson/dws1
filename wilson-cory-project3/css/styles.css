@@ -42,10 +42,7 @@ dark beige: 189 141 70
 
 
 body {
-	background-color: #4C1B1B; /*Hex color*/
-	background-image: url('images/black-linen.png'); /*bg image*/
-	background-repeat: repeat; /*bg repeat*/
-	background-position: center; /*bg position*/
+	background: #4C1B1B url("../images/45-degree-fabric-light.png") repeat top left;
 	font-family: 'Open Sans', Verdana, sans-serif;/*font-family used here*/
 	margin: 0;/*margin used*/
 }
@@ -149,6 +146,9 @@ figcaption {
 **************/
 header {
 	background-color: #FCFAE1;
+	background-image: url("../images/45-degree-fabric-light.png"); /*bg image*/
+	background-repeat: repeat; /*bg repeat*/
+	background-position: center; /*bg position*/
 }
 header h1 {
 	color: #000;
@@ -163,7 +163,10 @@ header h1 {
 **************/
 #nav {
   	background-color: #4C1B1B;
-  	font-size: 1em;
+  	background-image: url("../images/black-linen.png"); /*bg image*/
+	background-repeat: repeat; /*bg repeat*/
+	background-position: center; /*bg position*/
+	font-size: 1em;
 }
 #nav ul{
 	list-style-type: none;
@@ -218,9 +221,19 @@ header h1 {
   	overflow: hidden;
 }
 
+#bridge1 {
+	float: left;
+	width: 500px;
+	margin: 10px;
+}
+#bridge2{
+	float: left;
+	width: 200px;
+	margin: 10px;
+}
+
 #bridge_box figure {
-  	float: left;
-  	margin: 0 20px 20px 0;
+	margin: 0 20px 20px 0;
 }
 
 /*********************
