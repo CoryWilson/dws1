@@ -288,6 +288,22 @@ article {
 	margin: 1%;
 }
 
+/**************
+    table
+**************/
+table {
+    margin: 5% auto;
+}
+
+th {
+  padding: 10% 0;
+}
+
+td {
+  padding: 10% 0;
+}
+
+
 /*********************
     sidebar-gallery
 *********************/
