@@ -274,6 +274,14 @@ td:hover {
 	margin: 0 1% 0 0;
 }
 
+.title2 {
+	float: left;
+	clear: left;
+	width: 350px;
+	text-align: right;
+	margin: 0 1% 0 0;
+}
+
 .text {
 	font-size: 1em;
 	color: #54524E;
@@ -287,7 +295,7 @@ td:hover {
 .submit {
 	background: #B9121B;
 	font-size: 1.2em;
-	color: white;
+	color: #fff;
 	padding: 8px;
 	border: 1px solid #F5F5F5;
 }
@@ -301,6 +309,14 @@ form ul {
 
 form li {
 	display: inline-block;
+}
+
+.text:hover {
+	background-color: #999;
+}
+
+.text:focus {
+	background-color: #B9121B;
 }
 
 /*********************

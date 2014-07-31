@@ -97,35 +97,46 @@
 					</div><!-- neck2 ends -->
 				</section><!-- neck_box ends -->
 				<div id="forms">
-				<form action="mailto:ctwilson08@gmail.com" method="push" class="box dark">
+					<form action="mailto:ctwilson08@gmail.com" method="push" class="box dark">
 					<label for="email" class="title">Email:</label>
-						<input type="email" name="email" class="text" id="email" required="required" placeholder="email" />
+					<input type="email" name="email" class="text" id="email" required="required" placeholder="email" />
+					
 					<label for="username" class="title">Username:</label>
-						<input type="text" name="username" class="text" id="username" required="required" placeholder="username"/>
+					<input type="text" name="username" class="text" id="username" required="required" placeholder="username"/>
+					
 					<label for="password" class="title">Password:</label>
-						<input type="password" name="password" class="text" id="password" required="required" placeholder="password"/>
-
+					<input type="password" name="password" class="text" id="password" required="required" placeholder="password"/>	
+					
 					<label for="textarea" class="title">TextArea:</label>
-						<textarea name="textarea" class="text" id="textarea" cols="15" rows="2" placeholder="Text goes here..."></textarea>
-						<p>
-							Please select your favorite genre:
-							<input type="radio" name="genre" id="rock" value="rock" checked="checked" /><label for="rock">Rock</rock>
-							<input type="radio" name="genre" id="pop" value="pop" /><label for="pop">Pop</label>
-							<input type="radio" name="genre" id="jazz" value="jazz" /><label for="jazz">Jazz</label>
-						</p>
-
+					<textarea name="textarea" class="text" id="textarea" cols="15" rows="2" placeholder="Text goes here..."></textarea>						
+					
+					<p class="title2">
+						Please select your favorite genre:
+					</p>
 					<p>
+						<input type="radio" name="genre" id="rock" value="rock" checked="checked" /><label for="rock">Rock</rock>
+						<input type="radio" name="genre" id="pop" value="pop" /><label for="pop">Pop</label>
+						<input type="radio" name="genre" id="jazz" value="jazz" /><label for="jazz">Jazz</label>
+					</p>
+
+					<p class="title2">
 						Please select the music service(s) you use:
+					</p>
+					<p>
 						<input type="checkbox" name="service" id="itunes" value="itunes" checked="checked" /><label for="itunes">iTunes</label>
 						<input type="checkbox" name="service" id="lastfm" value="lastfm" /><label for="itunes">Last.fm</label>
 						<input type="checkbox" name="service" id="spotify" value="spotify" /><label for="spotify">Spotify</label>
 					</p>
-					<p>What device do you listen to music on?
-					<select name="devices">
-						<option value="ipod" id="ipod"><label for="ipod">iPod</label></option>
-						<option value="radio" id="radio"><label for="radio">Radio</label></option>
-						<option value="computer" id="computer"><label for="computer">Computer</label></option>
-					</select>
+					
+					<p class="title2">
+						What device do you listen to music on?:
+					</p>
+					<p>
+						<select name="devices">
+							<option value="ipod" id="ipod"><label for="ipod">iPod</label></option>
+							<option value="radio" id="radio"><label for="radio">Radio</label></option>
+							<option value="computer" id="computer"><label for="computer">Computer</label></option>
+						</select>
 					</p>
 					<p>
 						<input type="submit" name="submit" value="Submit" class="submit"/>
