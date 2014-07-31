@@ -22,22 +22,22 @@ dark beige: 189 141 70
 
 /*@font-face used here*/
 @font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Open Sans'), local('OpenSans'), url(http://themes.googleusercontent.com/static/fonts/opensans/v8/cJZKeOuBrn4kERxqtaUH3bO3LdcAZYWl9Si6vvxL-qU.woff) format('woff');
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Open Sans'), local('OpenSans'), url(http://themes.googleusercontent.com/static/fonts/opensans/v8/cJZKeOuBrn4kERxqtaUH3bO3LdcAZYWl9Si6vvxL-qU.woff) format('woff');
 }
 @font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 700;
-  src: local('Open Sans Bold'), local('OpenSans-Bold'), url(http://themes.googleusercontent.com/static/fonts/opensans/v8/k3k702ZOKiLJc3WVjuplzKRDOzjiPcYnFooOUGCOsRk.woff) format('woff');
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 700;
+	src: local('Open Sans Bold'), local('OpenSans-Bold'), url(http://themes.googleusercontent.com/static/fonts/opensans/v8/k3k702ZOKiLJc3WVjuplzKRDOzjiPcYnFooOUGCOsRk.woff) format('woff');
 }
 @font-face {
-  font-family: 'Open Sans';
-  font-style: italic;
-  font-weight: 400;
-  src: local('Open Sans Italic'), local('OpenSans-Italic'), url(http://themes.googleusercontent.com/static/fonts/opensans/v8/xjAJXh38I15wypJXxuGMBrrIa-7acMAeDBVuclsi6Gc.woff) format('woff');
+	font-family: 'Open Sans';
+	font-style: italic;
+	font-weight: 400;
+	src: local('Open Sans Italic'), local('OpenSans-Italic'), url(http://themes.googleusercontent.com/static/fonts/opensans/v8/xjAJXh38I15wypJXxuGMBrrIa-7acMAeDBVuclsi6Gc.woff) format('woff');
 }
 
 
@@ -112,6 +112,7 @@ a:active {/*a:active used*/
 **************/
 figure {
   	background: #BD8D46;
+  	width: 250px;
   	padding: 10px;/*padding used*/
   	margin: 0 auto;
   	border: 1px solid #4C1B1B;/*border used*/
@@ -132,7 +133,7 @@ figcaption {
    wrapper
 **************/
 #wrapper {
-  background: #BD8D46;
+	background: #F6E497;
   	/*page centered with with and auto margin*/
 	width: 95%;/*width used*/
 	margin: 0 auto;
@@ -143,11 +144,11 @@ figcaption {
 	header
 **************/
 header {
-	background: #FCFAE1 url("../images/logo.svg") center center no-repeat;/*non-repeating background image*/
+	background: #FCFAE1 url("../images/logo.gif") center center no-repeat;/*non-repeating background image*/
 }
 
 header h1 {
-  padding: 0 0 3% 0;
+  	padding: 0 0 3% 0;
 	text-indent: 100%;
 	white-space: nowrap;
 	overflow: hidden;
@@ -158,14 +159,14 @@ header h1 {
 **************/
 nav {
   	background-color: #4C1B1B;
-	   font-size: 1em;
-     width: 100%;
+	font-size: 1em;
+    width: 100%;
 }
 nav ul{
 	list-style-type: none;
 	text-align: center; /*text-align used*/
-  padding: 0;
-  margin: 0;
+	padding: 0;
+	margin: 0;
 }
 nav li {
 	display: inline-block;/*display used*/
@@ -195,82 +196,30 @@ article {
 ****************/
 
 .box {
-  margin: 0;
-  padding: 1% 3%;
-  overflow: auto;
+	margin: 0;
+	padding: 1% 3%;
+	overflow: auto;
 }
 
 .light{
-  background: #FCFAE1;
+	background: #FCFAE1;
 }
 
 .dark{
-  background: #F6E497;
+	background: #F6E497;
 }
 
-.left {
-  margin: 0 2% 2% 0;
-}
-
-.right {
-  margin: 0 0 2% 2%;
-}
-
-
-/*********************
-   eg box
-*********************/
+/**************
+    eg_box
+**************/
 #eg1 {
-	width: 60%;
 	float: left;
+	width: 60%;
 	margin: 1%;
 }
 #eg2 {
+	float: left;
 	width: 36%;
-	float: left;
-	margin: 3% 1% 1% 1%;
-}
-
-
-/*********************
-   construction_box
-*********************/
-#cb1 {
-	float: left;
-	width: 52%;
-	margin: 1%;
-}
-#cb2 {
-	float: left;
-	width: 44%;
-	margin: 1%;
-}
-
-/*********************
-  	 bridge_box
-*********************/
-#bridge1 {
-	float: left;
-	width: 52%;
-	margin: 1%;
-}
-#bridge2{
-	float: left;
-	width: 44%;
-	margin: 1%;
-}
-
-/*********************
-   	pickup_box
-*********************/
-#pickup1 {
-	float: left;
-	width: 48%;
-	margin: 1%;
-}
-#pickup2 {
-	float: left;
-	width: 48%;
 	margin: 1%;
 }
 
@@ -296,13 +245,54 @@ table {
 }
 
 th {
-  padding: 10% 0;
+	padding: 10% 0;
+	text-align: center;
 }
 
 td {
-  padding: 10% 0;
+	padding: 10% 0;
+	text-align: center;
 }
 
+/*************
+    form
+*************/
+
+.title {
+	float: left;
+	width: 85px;
+	text-align: right;
+	margin: 0 1% 0 0;
+}
+
+.text {
+	font-size: 1em;
+	color: #54524E;
+	background-color: #F5F5F5;
+	display: block;
+	border: 1px solid #C8C8C8;
+	padding: 4px 1px 4px 4px;
+	margin: 0 0 10px 0;
+}
+
+.submit {
+	background: #B9121B;
+	font-size: 1.2em;
+	color: white;
+	padding: 8px;
+	border: 1px solid #F5F5F5;
+}
+
+form ul {
+	list-style-type: none;
+	margin: 0 2%;
+	padding: 0;
+	text-align: right;
+}
+
+form li {
+	display: inline-block;
+}
 
 /*********************
     sidebar-gallery
@@ -313,18 +303,17 @@ aside {
     float: left;
     padding: 2%;
     margin: auto;
-    background: #BD8D46;
 }
 
 aside h3 {
-  text-align: center;
+	text-align: center;
 }
 
 aside figure {
-  float: left;
-  clear: left;
+	float: left;
+	clear: left;
 	margin: 2% auto;
-  padding: 1%;
+	padding: 1%;
 }
 aside figcaption {
 	font-size: .75em;
@@ -348,7 +337,7 @@ footer {
 }
 
 footer h3 {
-  text-shadow: 3px 3px 15px rgba(76,27,27,.5);
+	text-shadow: 3px 3px 15px rgba(76,27,27,.5);
 }
 
 footer ul {
